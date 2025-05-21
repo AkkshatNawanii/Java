@@ -1,11 +1,9 @@
-package test;
-
-import test.inheritance.Dog;
+package test.interfaces;
 
 public class Test {
     public static void main(String[] args) {
         Dog dog = new Dog();
-        int z = dog.getAge();
-
+        dog.eat();
+        dog.sleep();
     }
 }
